@@ -7,7 +7,6 @@
     <string name="previous">Previous</string>
 
     <!-- Google Maps API Key -->
-    <string name="google_maps_api_key">AIzaSyANlFb9RL5lWkHzKSPg0xd5aDnhk0TquG4</string>
 
     <!-- Missing Strings -->
     <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>

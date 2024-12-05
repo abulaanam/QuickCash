@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/welcomeEmployer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Welcome Employer!"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/createJobButton"
+        android:layout_width="286dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:text="Create Job"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcomeEmployer" />
+
+    <Button
+        android:id="@+id/applicationSubmissions"
+        android:layout_width="286dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="3dp"
+        android:text="My Job Postings and Applications"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createJobButton" />
+
+    <Button
+        android:id="@+id/switchToEmployeeButton"
+        android:layout_width="286dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="15dp"
+        android:text="Switch to Employee"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/payEmployeeButton" />
+
+    <Button
+        android:id="@+id/payEmployeeButton"
+        android:layout_width="286dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="3dp"
+        android:text="Pay Employee"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/applicationSubmissions" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/workersRecyclerView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:padding="16dp"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switchToEmployeeButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

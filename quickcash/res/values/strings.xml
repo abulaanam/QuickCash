@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Quick Cash</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Navigation Strings -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!-- Google Maps API Key -->
+    <string name="google_maps_api_key">AIzaSyANlFb9RL5lWkHzKSPg0xd5aDnhk0TquG4</string>
+
+    <!-- Missing Strings -->
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+</resources>
